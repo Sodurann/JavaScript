@@ -2,7 +2,9 @@
 let edad =  parseInt (prompt("Ingrese su edad"));
 let mayorEdad = 18 <= edad;
 
-let tieneDNI = confirm ("Tiene DNI?");
+let tieneDNI = prompt ("Tiene DNI?");
+
+tieneDNI = tieneDNI.toLowerCase();
 
 let puedeEntrar = mayorEdad && tieneDNI;
 
