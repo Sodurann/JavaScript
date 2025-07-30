@@ -14,7 +14,7 @@ do {
     alert("Ingrese un NUMERO de DNI!!!!!!!!!!");
     DNI = parseInt(prompt("Ingrese su numero de DNI:"));
   } else {
-    if (0 <= DNI >= 99999999) {
+    if (DNI => 0 && DNI >= 99999999) {
       let resto = DNI % 23;
       switch (resto) {
         // (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E)

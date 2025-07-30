@@ -6,4 +6,15 @@
 // 333
 // 22
 // 1
+let numeroIngresado = parseInt(prompt("Ingrese un numero menor que 50:"));
+
+if (numeroIngresado <= 50) {
+    for (let i = numeroIngresado; i >= numeroIngresado; i--) {
+    console.log (String(numeroIngresado).repeat(numeroIngresado));
+    numeroIngresado--
+}
+} else {
+    numeroIngresado = parseInt(prompt("Ingrese un numero menor que 50:"));
+}
+
 
