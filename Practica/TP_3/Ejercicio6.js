@@ -2,7 +2,7 @@
 // La fórmula del perímetro  es p = 2*(a +b)
 
 let lado1 = parseInt(prompt("Introduzca el valor de un lado del rectangulo:"));
-let lado2 = parseInt(prompt("Introduzca el valor de un lado del rectangulo:"));
+let lado2 = parseInt(prompt("Introduzca el valor del otro lado del rectangulo:"));
 
 function perimetro (uno,dos) {
     return 2*(uno+dos)
