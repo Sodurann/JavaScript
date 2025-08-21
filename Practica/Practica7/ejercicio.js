@@ -27,15 +27,6 @@ const peliculas = [
       "El patriarca envejecido de una dinastía criminal organizada transfiere el control de su imperio clandestino a su hijo reacio.",
   },
   {
-    Titulo: "Parasite",
-    anio: 2019,
-    Poster: "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2024/03/29150816/7IiTTgloJzvGI1TAYymCfbfl3vT-scaled.jpg",
-    Genero: "Thriller, Drama",
-    Rating: 8.6,
-    Descripcion:
-      "Una familia pobre pero astuta se infiltra en una familia rica al hacerse pasar por trabajadores altamente calificados, lo que lleva a consecuencias inesperadas.",
-  },
-  {
     Titulo: "Interstellar",
     anio: 2014,
     Poster: "https://pics.filmaffinity.com/Interstellar-366875261-large.jpg",
